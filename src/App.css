@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ffc29f;
+}
+::-webkit-scrollbar-thumb {
+  background: #f87b33;
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b15723;
+}
+
+#tsparticles {
+  position: fixed !important;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+img {
+  cursor: auto;
+}
